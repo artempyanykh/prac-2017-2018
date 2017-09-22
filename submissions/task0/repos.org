@@ -15,4 +15,4 @@
 |      311    | Агайдарова Айганым   | https://github.com/Agaidarova/prac-io-0        |
 |      311    | Донской Иван         | https://github.com/4atsky/prac-io-0            |
 |      312    | Сударева Валерия     | https://github.com/suvaleria/prac-io-0         |
-
+|	   311    | Осипа Андрей         | https://github.com/tvorah/prac-io-0            |
