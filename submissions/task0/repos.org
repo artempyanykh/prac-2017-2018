@@ -8,6 +8,7 @@
 |      312    | Ширяев Павел         | https://github.com/PavelShiryaev/prac-io-0     |
 |      312    | Некрасова Мария      |https://github.com/MariaNekrasova/prac-io-0     |
 |      312    | Смирнов Александр    | https://github.com/smvlx/prac-io-0             |
+|      312    | Блохина Анна         | https://github.com/annablokhina/prac-io-0      |
 |      311    | Родин Иван           | https://github.com/rodinis/prac-io-0           |
 |      311    | Шматенко Дарья       | https://github.com/ShDaria/prac-io-0           |
 |-------------+----------------------+------------------------------------------------|
