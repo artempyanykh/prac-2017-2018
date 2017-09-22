@@ -2,32 +2,15 @@
 
 |      Группы | Фио                  | Ссылка на репозиторий                          |
 |-------------+----------------------+------------------------------------------------|
-
-|      312    | Смирнов Александр    | https://github.com/smvlx/prac-io-0 |
-|         312 | Гулиев Юрий          | https://github.com/Hostile-Entity/prac-io-0    |
-
+|      312    | Смирнов Александр    | https://github.com/smvlx/prac-io-0             |
+|      312    | Гулиев Юрий          | https://github.com/Hostile-Entity/prac-io-0    |
+|      312    | Мареев Глеб          | https://github.com/GlebOlegovich/prac-io-0     |                                          
+|      312    | Ширяев Павел         | https://github.com/PavelShiryaev/prac-io-0     |
+|      312    | Некрасова Мария      |https://github.com/MariaNekrasova/prac-io-0     |
+|      312    | Смирнов Александр    | https://github.com/smvlx/prac-io-0             |
+|      311    | Родин Иван           | https://github.com/rodinis/prac-io-0           |
+|      311    | Шматенко Дарья       | https://github.com/ShDaria/prac-io-0           |
 |-------------+----------------------+------------------------------------------------|
-
-|         312 | Мареев Глеб          | https://github.com/GlebOlegovich/prac-io-0     |                                          
-|-------------+----------------------+------------------------------------------------|
-
-|         312 | Ширяев Павел         | https://github.com/PavelShiryaev/prac-io-0         |
-|-------------+----------------------+------------------------------------------------|
-|             |                      |                                                |  
-
-|             |                      |                                                |
-
-
-|312          | Некрасова Мария      |https://github.com/MariaNekrasova/prac-io-0     |
-|-------------+----------------------+------------------------------------------------|
-
-|         312 | Смирнов Александр    | https://github.com/smvlx/prac-io-0             |
-
-
-|         311 | Родин Иван           | https://github.com/rodinis/prac-io-0           |
-|-------------+----------------------+------------------------------------------------|
-|         311 | Шматенко Дарья       | https://github.com/ShDaria/prac-io-0           |
-
 
 
 
