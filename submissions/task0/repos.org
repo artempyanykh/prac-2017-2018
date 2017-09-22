@@ -1,4 +1,4 @@
-﻿#+TITLE: Задание 1. Список репозиториев
+#+TITLE: Задание 1. Список репозиториев
 
 |      Группы | Фио                  | Ссылка на репозиторий                          |
 |-------------+----------------------+------------------------------------------------|
@@ -10,6 +10,6 @@
 |      312    | Блохина Анна         | https://github.com/annablokhina/prac-io-0      |
 |      311    | Родин Иван           | https://github.com/rodinis/prac-io-0           |
 |      311    | Шматенко Дарья       | https://github.com/ShDaria/prac-io-0           |
-|         312 | Мешина Злата         | https://github.com/ZlataMeshina/prac-io-0      |  
-|   312       | Горбунов Александр   | https://github.com/GrbnvAlex/prac-io-0         |
+|      312    | Мешина Злата         | https://github.com/ZlataMeshina/prac-io-0      |  
+|      312    | Горбунов Александр   | https://github.com/GrbnvAlex/prac-io-0         |
 |      311    | Агайдарова Айганым   | https://github.com/Agaidarova/prac-io-0        |
