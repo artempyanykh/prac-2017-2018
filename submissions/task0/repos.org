@@ -11,6 +11,9 @@
 |      311    | Родин Иван           | https://github.com/rodinis/prac-io-0           |
 |      311    | Шматенко Дарья       | https://github.com/ShDaria/prac-io-0           |
 |      312    | Мешина Злата         | https://github.com/ZlataMeshina/prac-io-0      |  
+|      312    | Горбунов Александр   | https://github.com/GrbnvAlex/prac-io-0         |
+|      311    | Агайдарова Айганым   | https://github.com/Agaidarova/prac-io-0        |
+|      311    | Абдыкалик Шынгыс     | https://github.com/Shynggys96/prac-io-0        |
 |      312    | Горбунов Александр   | https://github.com/GrbnvAlex/prac-io-0         |
 |      311    | Агайдарова Айганым   | https://github.com/Agaidarova/prac-io-0        |
 |      311    | Донской Иван         | https://github.com/4atsky/prac-io-0            |
