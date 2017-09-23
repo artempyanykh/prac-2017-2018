@@ -19,4 +19,4 @@
 |      312    | Сабурова Анна        | https://github.com/annasaburova/prac-io-0      |
 |      311    | Кононов Сергей       | https://github.com/lalkakonus/prac-io-0        |
 |      312    | Меледин Станислав    | https://github.com/kvtvrvn/prac-io-0           |
-
+|      312    | Капитанов Филипп     | https://github.com/lucky10/prac-io-0           |
