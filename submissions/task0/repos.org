@@ -17,3 +17,5 @@
 |      312    | Сударева Валерия     | https://github.com/suvaleria/prac-io-0         |
 |	   311      | Осипа Андрей         | https://github.com/tvorah/prac-io-0            |
 |      311    | Кононов Сергей       | https://github.com/lalkakonus/prac-io-0        |
+|      312    | Шуган Алена    | https://github.com/AlinaShugan/prac-io-0             |
+
