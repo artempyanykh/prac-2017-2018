@@ -24,4 +24,5 @@
 |      312    | Капитанов Филипп     | https://github.com/lucky10/prac-io-0           |
 |      312    | Нагаева Варвара      | https://github.com/LikaBofort/prac-io-0        |
 |      312    | Марков Игорь         | https://github.com/imarkov312/prac-io-0        |
+|      312    | Шуган Алена          | https://github.com/AlinaShugan/prac-io-0       |
 
