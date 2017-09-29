@@ -25,6 +25,5 @@
 |      312    | Нагаева Варвара      | https://github.com/LikaBofort/prac-io-0        |
 |      312    | Марков Игорь         | https://github.com/imarkov312/prac-io-0        |
 |      312    | Шуган Алена          | https://github.com/AlinaShugan/prac-io-0       |
+|      311    | Павлов Антон         | https://github.com/AntonPavlovmsu/prac-io-0    |
 |      311    | Силаев Иван          | https://github.com/kaktus123/prac-io-0         |
-
-
