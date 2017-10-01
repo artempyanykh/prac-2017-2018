@@ -29,3 +29,4 @@
 |      311    | Сметанин Даниил      | https://github.com/smetanindaniil97/prac-io-0  |
 |      311    | Силаев Иван          | https://github.com/kaktus123/prac-io-0         |
 |      311    | Сумин Даниил         | https://github.com/danon1205/prac-io-0         |
+|      312    | Карабутов Дмитрий    | https://github.com/karabutov/prac-io-0         |
