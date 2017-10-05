@@ -20,8 +20,8 @@ def nash_equilibrium(in_matrix):
                 return {'f': a[i, j], 'p': p.tolist(), 'q': q.tolist()}
 
     # Делаем так, чтобы минимальный элемент матрицы был неотрицательным.
-    add = min(0, np.min(a))
-    a -= add
+    sub = min(0, np.min(a))
+    a -= sub
 
     # Формулировка ЗЛП.
     c = np.ones(n)
@@ -30,7 +30,7 @@ def nash_equilibrium(in_matrix):
 
     # Поиск спектра стратегии первого игрока и значения игры.
     res = linprog(c, a_ub, b_ub)
-    f = 1 / res.fun + add
+    f = 1 / res.fun + sub
     p = res.x * res.fun
 
     # Формулировка ЗЛП.
