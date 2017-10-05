@@ -1,79 +1,39 @@
 import numpy as np
-import scipy as sc
 from scipy.optimize import linprog
 
 
-def nash_equilibrium(a):
+def nash_equilibrium(in_matrix):
+    a = np.matrix(in_matrix)
     n = len(a)
 
-    row_min = []
-    for i in range(0, n):
-        row_min.append(np.min(a[i]))
+    row_min = np.min(a, 1)
+    col_max = np.max(a.T, 1)
 
-    a_tr = sc.transpose(a)
-    col_max = []
-    for i in range(0, n):
-        col_max.append(np.max(a_tr[i]))
-
-    print(row_min)
-    print(col_max)
     for i in range(0, n):
         for j in range(0, n):
-            if (a[i][j] == row_min[i] and a[i][j] == col_max[j]):
-                f = a[i][j]
-                p = [0] * n
+            if (a[i, j] == row_min[i] and a[i, j] == col_max[j]):
+                p = np.zeros(n)
+                q = np.zeros(n)
                 p[i] = 1
-                q = [0] * n
                 q[j] = 1
-                return {'f': f, 'p': p, 'q': q}
+                return {'f': a[i, j], 'p': p.tolist(), 'q': q.tolist()}
 
-    add = 0
-    if (np.min(a) < 0):
-        add = -np.min(a)
+    add = min(0, np.min(a))
+    a -= add
 
-    for i in range(0, n):
-        for j in range(0, n):
-            a[i][j] += add
-
-    c = []
-    for i in range(0, n):
-        c.append(1)
-
-    a_ub = [[0] * n for i in range(n + n)]
-    b_ub = [0] * (n + n)
-    for i in range(0, n):
-        for j in range(0, n):
-            a_ub[i][j] = -a[j][i]
-        b_ub[i] = -1
-
-        a_ub[n + i][i] = -1
-        b_ub[n + i] = 0
+    c = np.ones(n)
+    a_ub = np.vstack((-a.T, -np.identity(n)))
+    b_ub = np.hstack((np.full(n, -1), np.zeros(n)))
 
     res = linprog(c, a_ub, b_ub)
-    f = 1 / res.fun - add
+    f = 1 / res.fun + add
+    p = res.x * res.fun
 
-    p = []
-    for i in range(0, n):
-        p.append(res.x[i] * res.fun)
-
-    c = []
-    for i in range(0, n):
-        c.append(-1)
-
-    a_ub = [[0] * n for i in range(n + n)]
-    b_ub = [0] * (n + n)
-    for i in range(0, n):
-        for j in range(0, n):
-            a_ub[i][j] = a[i][j]
-        b_ub[i] = 1
-
-        a_ub[n + i][i] = -1
-        b_ub[n + i] = 0
+    c = np.full(n, -1)
+    a_ub = np.vstack((a, -np.identity(n)))
+    b_ub = np.hstack((np.ones(n), np.zeros(n)))
 
     res = linprog(c, a_ub, b_ub)
+    q = res.x * -res.fun
 
-    q = []
-    for i in range(0, n):
-        q.append(res.x[i] * -res.fun)
-
-    return {'f': f, 'p': p, 'q': q}
+    return {'f': f, 'p': p.tolist(), 'q': q.tolist()}
