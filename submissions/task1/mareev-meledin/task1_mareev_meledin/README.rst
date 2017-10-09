@@ -3,7 +3,7 @@ Task1_mareev_meledin
 
 Info
 ----
-This package was created to train the skills of publishing packages. Please do not download it if you do not know Mareyev Gleb or Meledin Stanislav :)
+This package was created to train the skills of publishing packages. Please do not download it if you do not know Mareev Gleb or Meledin Stanislav :)
 
 
 Using
