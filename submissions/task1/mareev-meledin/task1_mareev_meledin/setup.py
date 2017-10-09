@@ -10,7 +10,7 @@ def readme():
       # Имя пакета.
 setup(name='task1_mareev_meledin',
       # Версия.
-      version='1.4.48',
+      version='2.0.2',
       # Краткое описание пакета.
       description='Workshop 3 course. Autumn 17-18. Exercise 1.',
       # Авторы.
@@ -32,7 +32,7 @@ setup(name='task1_mareev_meledin',
       # Ключевые слова, описывающие пакет.
       keywords='task1 mareev maledin cs msu',
       # Адрес пакета в интернете.
-      # url='http://github.com/storborg/funniest',
+      url='https://github.com/GlebOlegovich/prac-2017-2018/tree/task1-mareev-meledin/submissions/task1/mareev-meledin/task1_mareev_meledin',
       # Категории пакета.
       classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -40,4 +40,5 @@ setup(name='task1_mareev_meledin',
         'Programming Language :: Python :: 3.6',
         'Topic :: Scientific/Engineering :: Mathematics',
       ],
+      # Установка пакета в качестве каталога, а не архива.
       zip_safe=False)

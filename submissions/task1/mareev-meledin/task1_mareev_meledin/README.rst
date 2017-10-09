@@ -1,11 +1,16 @@
 Task1_mareev_meledin
---------
+====================
+
+Info
+----
+This package was created to train the skills of publishing packages. Please do not download it if you do not know Mareyev Gleb or Meledin Stanislav :)
+
+
+Using
+------
 
 To use, simply do::
 
-    >>> import funniest
-    >>> print funniest.joke()
-
-    >>> import task1_mareev_meledin as t
-    >>> print(t.nash_equilibrium([[1, 2], [2, 3]]))
+    import task1_mareev_meledin as t
+    print(t.nash_equilibrium([[1, 2], [2, 3]]))
 
