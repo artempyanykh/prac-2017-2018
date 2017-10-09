@@ -10,7 +10,7 @@ def readme():
       # Имя пакета.
 setup(name='task1_mareev_meledin',
       # Версия.
-      version='2.0.2',
+      version='4.1',
       # Краткое описание пакета.
       description='Workshop 3 course. Autumn 17-18. Exercise 1.',
       # Авторы.
@@ -40,5 +40,7 @@ setup(name='task1_mareev_meledin',
         'Programming Language :: Python :: 3.6',
         'Topic :: Scientific/Engineering :: Mathematics',
       ],
+      # Пакеты.
+      packages = ['task1_mareev_meledin'],
       # Установка пакета в качестве каталога, а не архива.
       zip_safe=False)

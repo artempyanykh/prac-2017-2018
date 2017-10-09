@@ -11,6 +11,6 @@ Using
 
 To use, simply do::
 
-    import task1_mareev_meledin as t
-    print(t.nash_equilibrium([[1, 2], [2, 3]]))
+    import task1_mareev_meledin as ts
+    print(ts.nash_equilibrium([[1, 2], [2, 3]]))
 
