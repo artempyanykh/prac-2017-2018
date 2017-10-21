@@ -4,17 +4,17 @@ from scipy.optimize import linprog
 
 def nash_equilibrium(in_matrix):
     a = np.matrix(in_matrix)
-    n = len(a)  # Узнаем размер матрицы игры.
-
+    n = len(a)  # Узнаем размер матрицы игры. (количество строк)
+    m = len(a.T) #количесвто столбцов
     row_min = np.min(a, 1)    # Находим минимальный элемент для каждой строки.
     col_max = np.max(a.T, 1)  # Находим максимальный элемент для каждого столбца.
 
     # Проверка игры на равновесие Нэша.
     for i in range(0, n):
-        for j in range(0, n):
+        for j in range(0, m):
             if (a[i, j] == row_min[i] and a[i, j] == col_max[j]):
                 p = np.zeros(n) # Создаем вектор из n нулей.
-                q = np.zeros(n) # Создаем вектор из n нулей.
+                q = np.zeros(m) # Создаем вектор из n нулей.
                 p[i] = 1
                 q[j] = 1
                 return {'f': a[i, j], 'p': p.tolist(), 'q': q.tolist()}
@@ -37,7 +37,7 @@ def nash_equilibrium(in_matrix):
     a_ub = np.vstack((-a.T, -np.identity(n))) #Создание единичной матрицы np.identity
     # Создаем вектор (если n равно 3):
     # -1 -1 -1 0 0 0 
-    b_ub = np.hstack((np.full(n, -1), np.zeros(n))) # np.full создание массива длинны n, заполнение -1 ми
+    b_ub = np.hstack((np.full(m, -1), np.zeros(n))) # np.full создание массива длинны n, заполнение -1 ми
 
     # Поиск спектра стратегии первого игрока и значения игры.
     res = linprog(c, a_ub, b_ub) # linprog ищет значение неизвестных при которых целевая функция принимает самые минимальные значения при заданных ограничениях, в 
@@ -50,7 +50,7 @@ def nash_equilibrium(in_matrix):
     # Формулировка ЗЛП для 2го игрока.
     # # Создаем вектор (если n равно 3):
     # -1 -1 -1
-    c = np.full(n, -1)
+    c = np.full(m, -1)
     # Создаем матрицу (если n равно 3):
     # a[0, 0] a[0, 1] a[0, 2]
     # a[1, 0] a[1, 1] a[1, 2]
@@ -58,10 +58,10 @@ def nash_equilibrium(in_matrix):
     #      -1       0       0
     #       0      -1       0
     #       0       0      -1
-    a_ub = np.vstack((a, -np.identity(n)))
+    a_ub = np.vstack((a, -np.identity(m)))
     # Создаем вектор (если n равно 3):
     # 1 1 1 0 0 0 
-    b_ub = np.hstack((np.ones(n), np.zeros(n)))
+    b_ub = np.hstack((np.ones(n), np.zeros(m)))
 
     # Поиск спектра стратегии второго игрока.
     res = linprog(c, a_ub, b_ub)
