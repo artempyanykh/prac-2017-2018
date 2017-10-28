@@ -110,9 +110,9 @@ Cell -> Run All  - для Jupiter
 Меледин Станислав 312 группа
 
 Мареев Глеб 312 группа
-	* solve.py ( функция nash_equilibrium() )
-	* Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
-	* Создадие пакета
+* solve.py ( функция nash_equilibrium() )
+* Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
+* Создадие пакета
 	> Ссылка на пакет : https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2
 			
 
