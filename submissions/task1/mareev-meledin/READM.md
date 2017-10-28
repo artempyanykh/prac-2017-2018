@@ -44,10 +44,10 @@ Cell -> Run All  - для Jupiter
 	* MANIFEST.in необходим для включения в пакет файлов с не питоновским расширением.
 	* setup.py необходим для установки пакета.
 	* Папка ```task1_mareev_meledin``` содержит:
-	```
-	1)Файл __init__.py,в котором содержится функция nash_equilibrium(in_matrix),"взятая" из solve.py
-	2)solve.py 
-	```
+		```
+		1)Файл __init__.py,в котором содержится функция nash_equilibrium(in_matrix),"взятая" из solve.py
+		2)solve.py 
+		```
 			
 ## Необходимое ПО
 ### Библиотеки:
