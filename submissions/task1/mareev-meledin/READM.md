@@ -107,13 +107,12 @@ Cell -> Run All  - для Jupiter
 2) Jupyter Notebook 
 
 ## Работу выполнили:
-Меледин Станислав 312 группа
+**Меледин Станислав 312 группа** - [kvtvrvn](https://github.com/kvtvrvn)
 
-Мареев Глеб 312 группа
+**Мареев Глеб 312 группа** - [GlebOlegovich](https://github.com/GlebOlegovich)
 * solve.py ( функция nash_equilibrium() )
 * Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
 * Создадие пакета
-	> Ссылка на пакет : https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2
-			
+	> [Pypi](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2) - Ссылка на пакет
 
 			
