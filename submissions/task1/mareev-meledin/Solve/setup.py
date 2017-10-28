@@ -31,7 +31,7 @@ setup(name='task1_mareev_meledin',
       # Ключевые слова, описывающие пакет.
       keywords='task1 mareev maledin cs msu',
       # Адрес пакета в интернете.
-      url='https://github.com/GlebOlegovich/prac-2017-2018/tree/task1-mareev-meledin/submissions/task1/mareev-meledin/task1_mareev_meledin',
+      url='https://github.com/GlebOlegovich/prac-2017-2018/tree/task1-mareev-meledin/submissions/task1/mareev-meledin',
       # Категории пакета.
       classifiers=[
         'Development Status :: 5 - Production/Stable',
