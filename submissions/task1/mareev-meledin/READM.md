@@ -34,7 +34,7 @@
 
 	Решение задания реализовано в виде пакета nash, который находится в папке ```submissions/task1/mareev-meledin/solve```
 
-	> Cell -> Run All  - для Jupiter	
+	Cell -> Run All  - для Jupiter	
 	
 
 ## *Описание файлов*
