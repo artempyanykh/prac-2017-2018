@@ -45,8 +45,8 @@ Cell -> Run All  - для Jupiter
 	* setup.py необходим для установки пакета.
 	* Папка ```task1_mareev_meledin``` содержит:
 	```
-		● Файл __init__.py, в котором содержится функция nash_equilibrium(in_matrix), "взятая" из solve.py
-		● solve.py 
+	● Файл __init__.py, в котором содержится функция nash_equilibrium(in_matrix), "взятая" из solve.py
+	● solve.py 
 	```
 			
 ## Необходимое ПО
@@ -107,13 +107,13 @@ Cell -> Run All  - для Jupiter
 2) Jupyter Notebook 
 
 ## Работу выполнили:
-			Меледин Станислав 312 группа
+Меледин Станислав 312 группа
 
-			Мареев Глеб 312 группа
-				* solve.py ( функция nash_equilibrium() )
-				* Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
-				* Создадие пакета
-					> Ссылка на пакет : https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2
+Мареев Глеб 312 группа
+	* solve.py ( функция nash_equilibrium() )
+	* Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
+	* Создадие пакета
+	> Ссылка на пакет : https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2
 			
 
 			
