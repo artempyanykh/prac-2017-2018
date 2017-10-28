@@ -118,5 +118,5 @@ Cell -> Run All  - для Jupiter
 
 
 ## **Cпасибо,что прочли README, терерь вы понимаете на сколько ЭТО хрупкий механизм😂**
-![](http://memesmix.net/media/created/uw4vmh.jpg) : high:100px
+![](http://memesmix.net/media/created/uw4vmh.jpg)
  			
