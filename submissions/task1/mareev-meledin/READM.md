@@ -114,5 +114,5 @@ Cell -> Run All  - для Jupiter
 * Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
 * Создадие пакета
 	> [task1_mareev_meledin 5.0](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=5.0) - Ссылка на пакет
-* Устал писать README.md ![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+* Устал писать README.md ![Устал писать README.md](https://icon-icons.com/icons2/722/PNG/256/Smiley-22_256_icon-icons.com_62512.png)
 			
