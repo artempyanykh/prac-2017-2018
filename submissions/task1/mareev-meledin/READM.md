@@ -113,6 +113,6 @@ Cell -> Run All  - для Jupiter
 * solve.py ( функция nash_equilibrium() )
 * Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
 * Создадие пакета
-	> [Pypi](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2) - Ссылка на пакет
+	> [task1_mareev_meledin 4.2](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=4.2) - Ссылка на пакет
 
 			
