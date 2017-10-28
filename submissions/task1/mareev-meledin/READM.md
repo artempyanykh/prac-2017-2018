@@ -115,5 +115,5 @@ Cell -> Run All  - для Jupiter
 * Создадие пакета
 	> [task1_mareev_meledin 5.0](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=5.0) - Ссылка на пакет
 * Устал писать README.md 
-![Устал писать README.md](https://icon-icons.com/icons2/722/PNG/256/Smiley-22_256_icon-icons.com_62512.png)
+![](https://icon-icons.com/icons2/722/PNG/256/Smiley-22_256_icon-icons.com_62512.png)
 			
