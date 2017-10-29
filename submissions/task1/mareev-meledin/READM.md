@@ -33,7 +33,8 @@
 
 Решение задания реализовано в виде пакета, который находится в папке ```submissions/task1/mareev-meledin/package```
 Для установки пакета в командной строке выполнить команду ```pip install task1_mareev_meledin```
-Для использования просто сделай:
+Для использования просто сделай::
+	
 	Python
 	import task1_mareev_meledin as ts
 	print(ts.nash_equilibrium([[1, 2], [2, 3]]))
