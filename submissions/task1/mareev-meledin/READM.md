@@ -31,8 +31,13 @@
 
 ## *Инструкции по запуску*
 
-Решение задания реализовано в виде пакета nash, который находится в папке ```submissions/task1/mareev-meledin/solve```
-
+Решение задания реализовано в виде пакета, который находится в папке ```submissions/task1/mareev-meledin/package```
+Для установки пакета в командной строке выполнить команду ```pip install task1_mareev_meledin```
+Для использования просто сделай:
+	Python
+	import task1_mareev_meledin as ts
+	print(ts.nash_equilibrium([[1, 2], [2, 3]]))
+	
 Cell -> Run All  - для Jupiter	
 	
 
@@ -113,7 +118,7 @@ Cell -> Run All  - для Jupiter
 * solve.py ( функция nash_equilibrium() )
 * Улучшение визуализации спектров оптимальных стратегий игроков в Jupyter
 * Создадие пакета
-	> [task1_mareev_meledin 5.0](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=5.0) - Ссылка на пакет
+	> [task1_mareev_meledin 5.1](https://pypi.python.org/pypi?:action=display&name=task1_mareev_meledin&version=5.1) - Ссылка на пакет
 * Устал писать README.md 🤠
 
 
