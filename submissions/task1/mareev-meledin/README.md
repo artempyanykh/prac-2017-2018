@@ -111,6 +111,8 @@ Cell -> Run All  - для Jupiter
 	Создаем вектор (если n равно 3):
 	 -1 -1 -1 0 0 0 
 	```
+* nnp.testing.assert_array_almost_equal(x, y, decimal=6, err_msg='', verbose=True)
+	> Функция позволяет установить равенство **(но это не точно)** множеств , с точностью < 1.5 * 10^(-decimal)
 		
 ### Программы:
 1) Python 3.6
