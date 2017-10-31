@@ -27,8 +27,7 @@
 	И подобрать необходимые матрицы
 	
 3. Требуется оформить решение в виде пакета
-
-	Для отправки пакета на [python](https://www.python.org) необходимо перейти в каталог ```submissions/task1/mareev-meledin/package``` и выполнить команду ```python setup.py sdist upload```
+* Для отправки пакета на [python](https://www.python.org) необходимо перейти в каталог ```submissions/task1/mareev-meledin/package``` и выполнить команду ```python setup.py sdist upload```
 
 4. Тестирование функции ```nash_equilibrium(in_matrix)```
 
