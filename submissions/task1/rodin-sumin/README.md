@@ -54,7 +54,19 @@
       
    Тестирование пакета
   -------------------------
-   Для того, чтобы увидеть визуализацию работы функции ***nash_equilibrium*** необходимо открыть в Jupyter файл 
+  Для того, чтобы увидеть визуализацию работы функции ***nash_equilibrium*** необходимо отркыть в Jupyter файл лежащий по адресу _https://github.com/artempyanykh/prac-2017-2018/tree/master/submissions/task1/rodin-sumin/game/game/spectre.ipynb_ Далее выполнить Cells -> Run All и можно будет увидеть визуализацию функции nash_euqilibrium на трех различных тестах
+   
+   >Можно так же выполнить последовательность команд
+   >
+   >   cd ~
+   >
+   >   git clone —depth=1 https://github.com/rodinis/game.git
+   >
+   >   jupyter notebook ~/game/game/spectre.ipynb
+   > 
+   >Далее выполнить Cells -> Run All и можно будет увидеть визуализацию функции nash_euqilibrium на трех различных тестах
+  
+  
   Важно
   ========================
   
