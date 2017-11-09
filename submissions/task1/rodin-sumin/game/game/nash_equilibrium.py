@@ -29,8 +29,8 @@ def nash_equilibrium(A):
     #Проверка на отрицательные элементы с последующим
     #преобразованием к игре без отрицательных значений
     a_min = np.amin(A)
-    if (a_min < 0):
-        A += abs(a_min)
+    if (a_min <= 0):
+        A += abs(a_min) + 1
 
     #Решение ЗЛП для первого и второго игрока
     A_t = -np.transpose(A)
@@ -51,9 +51,9 @@ def nash_equilibrium(A):
     a2 *= game_result
 
     if (a_min < 0):
-        game_result += a_min
+        game_result += a_min - 1
 
-        # Преобразование к обыкновенным дробям
+    # Преобразование к обыкновенным дробям
     a_str1 = []
     a_str2 = []
     for i in range(n):
