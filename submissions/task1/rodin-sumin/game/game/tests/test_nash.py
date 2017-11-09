@@ -18,6 +18,13 @@ class TestNash(unittest.TestCase):
         self.assertEqual(first, ['1', '0'])
         self.assertEqual(second, ['1', '0', '0'])
         self.assertEqual(res, '5')
+        
+    def test_3(self):
+        first, second, res = game.nash_equilibrium(np.array([[0, 0, 0],
+                                                             [0, 0, 0]]))
+        self.assertEqual(first,['1', '0'])
+        self.assertEqual(second,['1', '0', '0'])
+        self.assertEqual(res, '0')
 
 
 if __name__ == '__main__':
