@@ -57,9 +57,9 @@ def nash_equilibrium(A):
     a_str1 = []
     a_str2 = []
     for i in range(n):
-        a_str1.append(str(fractions.Fraction.from_float(a1[i]).limit_denominator(10000)))
+        a_str1.append(str(fractions.Fraction.from_float(a1[i]).limit_denominator()))
     for j in range(m):
-        a_str2.append(str(fractions.Fraction.from_float(a2[j]).limit_denominator(10000)))
-    ans_str = str(Fraction.from_float(game_result).limit_denominator(10000))
+        a_str2.append(str(fractions.Fraction.from_float(a2[j]).limit_denominator()))
+    ans_str = str(Fraction.from_float(game_result).limit_denominator())
 
     return a_str1, a_str2, ans_str
