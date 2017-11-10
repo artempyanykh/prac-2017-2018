@@ -53,13 +53,13 @@ def nash_equilibrium(A):
     if (a_min <= 0):
         game_result += a_min - 1
 
-        # Преобразование к обыкновенным дробям
+    # Преобразование к обыкновенным дробям
     a_str1 = []
     a_str2 = []
     for i in range(n):
-        a_str1.append(str(fractions.Fraction.from_float(a1[i]).limit_denominator()))
+        a_str1.append(str(Fraction.(a1[i]).limit_denominator()))
     for j in range(m):
-        a_str2.append(str(fractions.Fraction.from_float(a2[j]).limit_denominator()))
-    ans_str = str(Fraction.from_float(game_result).limit_denominator())
+        a_str2.append(str(Fraction(a2[j]).limit_denominator()))
+    ans_str = str(Fraction(game_result).limit_denominator())
 
     return a_str1, a_str2, ans_str
