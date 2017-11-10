@@ -50,7 +50,7 @@ def nash_equilibrium(A):
     a1 *= game_result
     a2 *= game_result
 
-    if (a_min < 0):
+    if (a_min <= 0):
         game_result += a_min - 1
 
         # Преобразование к обыкновенным дробям
