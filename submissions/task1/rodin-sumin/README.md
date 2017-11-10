@@ -59,7 +59,7 @@
    
    Для запуска unit-тестов нужно перейти в директорию game/game и выполнить команду:
     
-    nosetests test
+    nosetests tests
     
     
   
