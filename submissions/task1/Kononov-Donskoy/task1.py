@@ -1,6 +1,6 @@
 #Task 1 group 311 Kononov, Donskoy
 
-#coding: utf-8
+# coding: utf-8
 
 import numpy as np
 from scipy.optimize import linprog
@@ -52,9 +52,9 @@ def nash_equilibrium(A):
 
     ##############################################################
     
-    print_graf(V, P, Q)
+    print_plot(V, P, Q)
 
-def print_graf(R, st1, st2):
+def print_plot(R, st1, st2):
  
     #printing answer
     
