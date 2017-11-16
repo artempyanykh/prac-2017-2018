@@ -1,4 +1,4 @@
-Задание prac-io-1. v.1.2
+Задание prac-io-1. v.1.3
 ---------------
 
 # Краткое описание задания
@@ -34,8 +34,33 @@ Python 3.6.1
 
 # Используемые библиотеки
 - **numpy**, для работы с многомерными массивами (*ndarray*)
-- **scipy**, для решения ЗЛП симплекс-методом (функция *scipy.optimize.linprog*)
-- **matplotlib**, для построения диаграммы
+  - numpy.ndarray.min(axis=None, out=None, keepdims=False) – возвращает минимум многомерного массива по заданным осям
+
+  - numpy.ndarray.transpose(a,axes=None) – поворачивает задаваемый многомерный массив вокруг заданных осей
+
+  - numpy.ndarray.ones(shape, dtype=None, order=’C’) – создает новый многомерный массив заданного размера и типа, заполненный единицами
+
+  - numpy.ndarray.sum(a, axis=None, dtype=None, out=None, keepdims=<class numpy._globals._NoValue>) – сумма элементов многомерного массива по заданным осям 
+- **scipy**, для решения ЗЛП симплекс-методом:
+  - scipy.optimize.linprog(c, A_ub=None, b_ub=None, A_eq=None, b_eq=None, bounds, method=’simplex’, callback=None, options=None) – решает задачу вида <c,x> -> min при заданных ограничениях A*x<=b 
+- **matplotlib**, для построения диаграммы:
+  - matplotlib.pyplot.bar(x, height, width, bottom, align) - рисует стобцы диаграммы
+
+  - matplotlib.pyplot.figure(figsize=None, dpi=None, facecolor=None, edgecolor=None, linewidth=0.0, frameon=None, subplotpars=None, tight_layout=None) - создаёт новую фигуру
+
+  - matplotlib.pyplot.grid(b=None, which=’major’, axis=’both’, **kwargs) – добавляет оси сетки
+
+  - matplotlib.pyplot.axes(fig, rect, facecolor=None, frameon=True, sharex=None, sharey=None, label='', xscale=None, yscale=None, axisbg=None, **kwargs) - добавляет оси
+
+  - matplotlib.pyplot.xlabel(s, *args, **kw) – записывает строку s на оси х
+
+  - matplotlib.pyplot.ylabel(s, *args, **kw) - записывает строку s на оси y
+
+  - matplotlib.pyplot.title(s, *args, **kw) – записывает строку s в оглавлении
+
+  - matplotlib.pyplot.xticks(*args, **kw) – приписываем разбиению на оси х необходимые значения
+
+  - matplotlib.pyplot.show(*args, **kw) – выводит на дисплей все рисунки 
 # Инструкции по запуску
 
 ## Необходимое ПО
