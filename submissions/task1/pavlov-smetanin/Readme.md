@@ -36,7 +36,7 @@
    
    # Необходимое ПО:
    
-   Windows 10, Anaconda3, Python 3.6
+   Windows 10, Anaconda3, Python 3.6, Jupyter Notebook.
      
    ## Используемые библиотеки:
    1) numpy
