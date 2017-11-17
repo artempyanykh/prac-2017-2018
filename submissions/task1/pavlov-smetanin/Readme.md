@@ -17,10 +17,12 @@
   # Реализация решения:
   
  С массивами работаем с помощью библиотеки numpy: https://pythonworld.ru/numpy/1.html.
- Пару двойственных задач линейного программирования будем решать с помощью функции linprog библиотеки SciPy.
- Ссылка на документацию по данной функции:
+ 
+ Пару двойственных задач линейного программирования будем решать с помощью функции linprog библиотеки scipy:
  https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html .
+ 
  После получения решения задачи нам надо визуализировать его. Это делается с помощью библиотеки matplotlib:  https://pythonworld.ru/novosti-mira-python/scientific-graphics-in-python.html .
+ 
  После визуализации необходимо протестировать программу. Тесты будем делать с помощью библиотеки unittest:
  http://devpractice.ru/unit-testing-in-python-part-1/ .
 
