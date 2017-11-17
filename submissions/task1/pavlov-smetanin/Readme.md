@@ -16,15 +16,16 @@
 Наша задача состоит в нахождении цены игры и оптимальных стратегий обоих игроков. Оптимальная стратегия первого игрока обладает тем свойством, что при любом поведении второго игрока обеспечивает выигрыш первому игроку, не меньший, чем цена игры. Для решения задачи сведем ее к паре двойственных задач линейного программирования. Это делается с помощью определений и подробно описано здесь: https://math.semestr.ru/games/linear-programming.php
   # Реализация решения:
   
- С массивами работаем с помощью библиотеки numpy: https://pythonworld.ru/numpy/1.html.
+ С массивами работаем с помощью библиотеки numpy:
+ https://pythonworld.ru/numpy/1.html
  
  Пару двойственных задач линейного программирования будем решать с помощью функции linprog библиотеки scipy:
- https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html .
+ https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html
  
- После получения решения задачи нам надо визуализировать его. Это делается с помощью библиотеки matplotlib:  https://pythonworld.ru/novosti-mira-python/scientific-graphics-in-python.html .
+ После получения решения задачи нам надо визуализировать его. Это делается с помощью библиотеки matplotlib:  https://pythonworld.ru/novosti-mira-python/scientific-graphics-in-python.html
  
  После визуализации необходимо протестировать программу. Тесты будем делать с помощью библиотеки unittest:
- http://devpractice.ru/unit-testing-in-python-part-1/ .
+ http://devpractice.ru/unit-testing-in-python-part-1/
 
   
   # Запуск программы:
