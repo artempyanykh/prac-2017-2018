@@ -32,18 +32,13 @@
    
    # Необходимое ПО:
    
-   Windows 10, Anaconda3.
+   Windows 10, Anaconda3, Python 3.6
      
    ## Используемые библиотеки:
    1) numpy
    2) scipy
    3) matplotlib
    4) unittest
-   
-   ## Программы:
-   Python 3.6
-   Anaconda3
-   jupyter-notebbok
    
    # Участники:
    Павлов Антон Сергеевич (311 группа):
