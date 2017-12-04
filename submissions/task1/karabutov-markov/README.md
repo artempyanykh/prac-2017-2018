@@ -135,15 +135,21 @@ III этап. Улучшение опорного плана. Из отрица�
 1) **Numpy**
 
 * Для работы с матрицами
+
 ———
 
 * Использованные в проекте функции из библиотеки Numpy:
 
 . numpy.array(object, dtype=None, copy=True, order='K', subok=False, ndmin=0) - создает массив
+
 . numpy.arange([start, ]stop, [step, ]dtype=None) - список из последовательности чисел
+
 . numpy.empty(shape, dtype=float, order='C') - создает массив без его заполнения
+
 . numpy.loadtxt(fname, dtype=<type 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0)[source] - для загрузки данных из файла
+
 . numpy.ones(shape, dtype=None, order='C') - массив из единиц
+
 . numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
 
 2) **Matplotlib**
@@ -151,9 +157,12 @@ III этап. Улучшение опорного плана. Из отрица�
 * Для построения графиков
 ———
 
-. matplotlib.pyplot.title(s, *args, **kwargs) - Set a title of the current axes.
+. matplotlib.pyplot.title(s, *args, \**kwargs) - Set a title of the current axes.
+
 . matplotlib.pyplot.grid(b=None, which='major', axis='both', **kwargs) - Turn the axes grids on or off.
+
 . matplotlib.pyplot.plot(*args, **kwargs) - Plot lines and/or markers to the Axes. args is a variable length argument, allowing for multiple x, y pairs with an optional format string. For example, each of the following is legal.
+
 . matplotlib.pyplot.show(*args, **kw) - Display a figure. When running in ipython with its pylab mode, display all figures and return to the ipython prompt.
 
 
@@ -161,6 +170,7 @@ III этап. Улучшение опорного плана. Из отрица�
 3) **Scipy** 
 
 * Для использования методов линейного програмирования
+
 ———
 
 Функция `linprog` из библиотеки `SciPy` необходима для решения двойственной задачи линейного программирования с помощью симплекс-метода. 
