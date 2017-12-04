@@ -155,6 +155,7 @@ III этап. Улучшение опорного плана. Из отрица�
 2) **Matplotlib**
 
 * Для построения графиков
+
 ———
 
 . matplotlib.pyplot.title(s, *args, \**kwargs) - Set a title of the current axes.
