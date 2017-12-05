@@ -86,7 +86,7 @@
 * Второй пункт задания.
 * Советы по библиотеке **Pandas**.
 
-*Мареев Глеб 312 группа* - [GlebOlegovich](https://github.com/GlebOlegovich) 
+**Мареев Глеб 312 группа** - [GlebOlegovich](https://github.com/GlebOlegovich) 
 * Первый и третий пункты задания.
 * Написание readme.
 * Наведения красоты на графики.
