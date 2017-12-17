@@ -163,4 +163,4 @@
 ![](https://github.com/GlebOlegovich/Smthng/blob/master/nit.gif)
 
 ## **🎄С наступающим новым годом🎄**
-![](https://youtu.be/-RA4-zMmSvo)
+[![Watch the video](https://github.com/GlebOlegovich/Smthng/blob/master/new-year-background-with-fireworks_23-2147703007.jpg)](https://youtu.be/-RA4-zMmSvo)
