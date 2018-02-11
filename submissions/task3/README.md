@@ -69,7 +69,7 @@
 
 Теперь с помощью команды `cp` копируем файлы из облака на компьютер:
 
-    gsutil cp gs://artem-pyanykh-cmc-prac-task3-seed17/out/input/*.csv ./input .
+    gsutil cp gs://artem-pyanykh-cmc-prac-task3-seed17/out/input/*.csv ./input 
     
  Ввод данных
  -----------------------------
