@@ -204,8 +204,8 @@
 * Jupeter Notebook
 
 ## Авторы
-**Шуган Алина 312 группа - [AlinaShugan](https://github.com/AlinaShugan)
-**Сударева Валерия 312 группа -  [suvaleria](https://github.com/suvaleria)
+**Шуган Алина 312 группа** - [AlinaShugan](https://github.com/AlinaShugan)
+**Сударева Валерия 312 группа** -  [suvaleria](https://github.com/suvaleria)
 **Меледин Станислав 312 группа** - [kvtvrvn](https://github.com/kvtvrvn) 
 
 * Третий пункт задания.
