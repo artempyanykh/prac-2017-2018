@@ -45,6 +45,10 @@ processing(state,shop) создадутся 2 файла:
 конечных таблиц сделаны преобразования, смысл которых описан в разделе **"Подход к решению"**
 
 # Необходимое ПО
+
+1) Python 3
+2) Anaconda
+
 **Библиотеки**:
   - **pandas**
   - **matplotlib**
@@ -69,6 +73,12 @@ processing(state,shop) создадутся 2 файла:
   - arange(start, stop, step) - возвращает равномерно распределенные значения на данном интервале
   - zeros(A) - заполняет нулями массив А
   - full(shape, fill_value) - возвращает новый массив заданной формы и типа, заполненный fill_value
+  
+# Инструкция по запуску
+
+ Скачать файлы из input по ссылке https://console.cloud.google.com/storage/browser/artem-pyanykh-cmc-prac-task3-seed17
+ и добавить их в папку с `final.ipynb`. Открыть  `final.ipynb` в Jupyter и выполнить: Cell -> Run All 
+  
 
 
 # Участники
