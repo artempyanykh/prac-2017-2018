@@ -203,5 +203,3 @@
 
 Больше никто не захотел с нами((( (Такое часто бывает, даже барбершоп не помог)
 
-![](https://github.com/GlebOlegovich/Smthng/blob/master/uw4vmh_298x381.jpg)
-
