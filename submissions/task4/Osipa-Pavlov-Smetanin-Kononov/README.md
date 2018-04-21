@@ -18,9 +18,9 @@
 
 
 **production-data.csv** соответствует шаблону:  
-unsullen.id      | production.date | report.date | produced | defects | supplier
-1.0  | 1  | 1 | 103.0  | 0.0  | harpy.co  
-1.0  | 1  | 2 | 0.0  | 2.0  | harpy.co  
+unsullen.id      | production.date | report.date | produced | defects | supplier   
+1.0  | 1  | 1 | 103.0  | 0.0  | harpy.co    
+1.0  | 1  | 2 | 0.0  | 2.0  | harpy.co    
 ...  
 100.0|6|7 | 0.0  | 11.0  | westeros.inc  
 
