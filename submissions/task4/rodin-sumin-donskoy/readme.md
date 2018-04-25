@@ -22,12 +22,14 @@ supplier - поставщик
 
 
 ### Реализация решения
-
+Смотреть в presentation.tex
 
 ### Запуск
-
+Открыть jupyter файл. Cells -> Run all
 
 ### Необходимое ПО
+Anaconda
+
 Библиотеки: pandas, matplotlib, warnings, numpy
 
 ### Исользованные функции
