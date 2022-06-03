@@ -63,5 +63,5 @@ We recommend you getting familiar with [gcloud](https://cloud.google.com/sdk/gcl
 
 ### Dates
 
-* Submit before 19 March 2017.
-* Pass review before 1 Apr 2017.
+* Submit before 19 March 2018.
+* Pass review before 1 Apr 2018.
