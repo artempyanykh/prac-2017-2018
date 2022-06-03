@@ -43,8 +43,8 @@ You additionally can get:
   The process is described in ~README.org~, section [[file:~/dev/cmc-courses/prac-5sem-2016/README.org::#submission-rules][Submission rules]].
 
 * Dates
-- Submit PR before 5 Dec 2016.
-- Pass review before 12 Dec 2016.
+- Submit PR before 5 Dec 2017.
+- Pass review before 12 Dec 2017.
 
 * Links
 
